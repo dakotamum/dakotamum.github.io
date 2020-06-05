@@ -1,0 +1,77 @@
+.tuperware {
+    margin: 10px auto;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #00FFFF;
+    padding: 10px;
+    border-bottom-color: #000000;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+
+.navBar a {
+    color: #000000;
+}
+
+.navBar a:hover {
+    color: white;
+    transition: color 0.3s;
+}
+
+.navBar > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.right-side {
+    color: #FFFFFF;
+}
+
+.nav-link-wrapper a: hover {
+    color: black;
+}
+
+.nav-link-wrapper: hover {
+    border-bottom: 1px solid black;
+}
+
+.left-side {
+    display: flex;
+    padding: 20px;
+    margin-right: 20px;
+    background-color: #00FFFF;
+}
+
+.right-side {
+    padding: 20px;
+    background-color: #00FFFF;
+    font-size: 20px;
+}
+
+.content {
+    background-color: #CCCCCC;
+    height: 800px;
+}
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: blueviolet;
+    opacity: 0.5;
+}
+
+.grid-item:hover {
+    opacity: 1.0;
+}
